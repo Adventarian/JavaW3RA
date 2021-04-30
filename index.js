@@ -10,7 +10,7 @@ return Math.max(... numberKeys) + 1
 }
 
 function getExistingNotes() {
-    let notes = localStorage.getItem('notes')
+    let notes = LocalStorage.getItem('notes')
     if(!notes){
         return null
     }
